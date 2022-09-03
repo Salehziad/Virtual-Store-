@@ -19,7 +19,7 @@ export default(state = initialState, action) => {
                 // console.log(products);
                 return {products: products}
         case 'RESET':
-            console.log('reset');
+            // console.log('reset');
             return initialState;
         default:
             return state;
